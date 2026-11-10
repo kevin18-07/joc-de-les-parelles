@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    android:background="@drawable/fondo1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOC DE LES PARELLES"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="25dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="2">
+
+        <ImageButton
+            android:id="@+id/carta0"
+            style="@style/Carta"/>
+
+        <ImageButton
+            android:id="@+id/carta1"
+            style="@style/Carta"/>
+
+        <ImageButton
+            android:id="@+id/carta2"
+            style="@style/Carta"/>
+
+        <ImageButton
+            android:id="@+id/carta3"
+            style="@style/Carta"/>
+
+        <ImageButton
+            android:id="@+id/carta4"
+            style="@style/Carta"/>
+
+        <ImageButton
+            android:id="@+id/carta5"
+            style="@style/Carta"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnValidar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALIDAR"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Troba les parelles!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
